@@ -1,0 +1,15 @@
+type INCREMENT_CART_AMOUNT = 'INCREMENT_CART_AMOUNT';
+type DECREMENT_CART_AMOUNT = 'DECREMENT_CART_AMOUNT';
+
+export interface Types {
+  INCREMENT_CART_AMOUNT: INCREMENT_CART_AMOUNT;
+  DECREMENT_CART_AMOUNT: DECREMENT_CART_AMOUNT;
+}
+
+export interface Initial_State {
+  cartAmount: number;
+}
+
+export interface ActionsProps {
+  type: INCREMENT_CART_AMOUNT | DECREMENT_CART_AMOUNT
+}

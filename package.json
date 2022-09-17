@@ -1,0 +1,34 @@
+{
+  "name": "cart-aplication",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mui/material": "^5.10.5",
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "next": "^12.3.0",
+    "next-transpile-modules": "^9.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "styled-components": "^5.3.5",
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.18",
+    "@types/react": "^18.0.20",
+    "@types/redux-promise": "^0.5.29",
+    "@types/regenerator-runtime": "^0.13.1",
+    "@types/styled-components": "^5.1.26",
+    "redux-multi": "^0.1.12",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.4.1"
+  }
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Estonia&family=Roboto&display=swap');
+
+html {
+  font: 400 14px 'Roboto';
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--main-color);
+}
+
+@media(min-width: 600px) {
+  html {
+    font: 400 16px 'Roboto';
+  }
+}
+
+@media(min-width: 1000px) {
+  html {
+    font: 400 18px 'Roboto';
+  }
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+p, li, a, h3 {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover{
+  color: var(--main-hover-color);
+  text-decoration: underline;
+}

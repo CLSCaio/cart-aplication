@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  color: var(--second-color)
+}
+
+:root {
+  --main-color: white;
+  --second-color: #242424;
+
+  --main-hover-color: red;
+  --second-hover-color: #41f0a8;
+}
+
+.darkMode:root {
+  --main-color: #242424;
+  --second-color: white;
+
+  --main-hover-color: #41f0a8;
+  --second-hover-color: red;
+  
+}
+
+#__next {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main {
+  min-height: calc(100vh - 32px);
+  margin: 0 1.5rem;
+  padding-top: 70px;
+}
+
+.freeFrete {
+  color: rgb(65, 245, 65);
+  text-decoration: underline;
+}
+
